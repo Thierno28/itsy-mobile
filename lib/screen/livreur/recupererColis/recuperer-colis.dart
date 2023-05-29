@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:itsymobile/consts/global_colors.dart';
-import 'package:itsymobile/screen/recupererColis/components/details-trajet.dart';
+import 'package:itsymobile/screen/livreur/recupererColis/components/details-trajet.dart';
+
 
 class RecupererColis extends StatefulWidget {
   const RecupererColis({super.key});
