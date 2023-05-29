@@ -12,10 +12,7 @@ class _ConfirmerLivraisonState extends State<ConfirmerLivraison> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green[900],
       appBar: AppBar(
-        backgroundColor: Color(0x0A1D23),
-        elevation: 0,
         leading: IconButton(
           onPressed: () {},
           icon: Icon(Icons.menu),
@@ -34,9 +31,6 @@ class _ConfirmerLivraisonState extends State<ConfirmerLivraison> {
           children: [
             Container(
               height: 40,
-              decoration: BoxDecoration(
-                color: Color(0x2E758B),
-              ),
             ),
             Expanded(
               child: ClipRRect(

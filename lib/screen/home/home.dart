@@ -12,10 +12,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green[900],
       appBar: AppBar(
-        backgroundColor: Color(0x0A1D23),
-        elevation: 0,
         leading: IconButton(
           onPressed: () {},
           icon: Icon(Icons.menu),

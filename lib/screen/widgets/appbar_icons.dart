@@ -13,15 +13,9 @@ class AppBarIcons extends StatelessWidget {
           onTap: () {
             function();
           },
-          child: Container(
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: Theme.of(context).cardColor,
-            ),
-            child: Padding(
-              padding: const EdgeInsets.all(6.0),
-              child: Icon(icon),
-            ),
+          child: Padding(
+            padding: const EdgeInsets.all(6.0),
+            child: Icon(icon),
           )),
     );
   }

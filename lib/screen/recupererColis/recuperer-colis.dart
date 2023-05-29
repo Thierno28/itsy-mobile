@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:itsymobile/consts/global_colors.dart';
 import 'package:itsymobile/screen/recupererColis/components/details-trajet.dart';
 
 class RecupererColis extends StatefulWidget {
@@ -13,10 +14,7 @@ class _RecupererColisState extends State<RecupererColis> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green[900],
       appBar: AppBar(
-        backgroundColor: Color(0x0A1D23),
-        elevation: 0,
         leading: IconButton(
           onPressed: () {},
           icon: Icon(Icons.menu),
@@ -35,9 +33,6 @@ class _RecupererColisState extends State<RecupererColis> {
           children: [
             Container(
               height: 40,
-              decoration: BoxDecoration(
-                color: Color(0x2E758B),
-              ),
             ),
             Expanded(
               child: ClipRRect(
@@ -62,7 +57,7 @@ class _RecupererColisState extends State<RecupererColis> {
                               BorderRadius.vertical(top: Radius.circular(35)),
                           child: Container(
                             decoration: BoxDecoration(
-                              color: Colors.green[900],
+                              color: normalBackgroundColor,
                             ),
                             child: Padding(
                               padding: EdgeInsets.only(top: 70),
